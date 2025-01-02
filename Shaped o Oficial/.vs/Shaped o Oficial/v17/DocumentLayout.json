@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\diogo\\OneDrive\\Desktop\\Unity projects\\Shaped o Oficial\\",
+  "WorkspaceRootPath": "C:\\Users\\diogo\\Desktop\\Shaped\\Shaped o Oficial\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64E49D02-F23D-6D85-26AD-45C381E5DC1F}|Assembly-CSharp.csproj|c:\\users\\diogo\\onedrive\\desktop\\unity projects\\shaped o oficial\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64E49D02-F23D-6D85-26AD-45C381E5DC1F}|Assembly-CSharp.csproj|c:\\users\\diogo\\desktop\\shaped\\shaped o oficial\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64E49D02-F23D-6D85-26AD-45C381E5DC1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\diogo\\OneDrive\\Desktop\\Unity projects\\Shaped o Oficial\\Assets\\Scripts\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\diogo\\Desktop\\Shaped\\Shaped o Oficial\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "C:\\Users\\diogo\\OneDrive\\Desktop\\Unity projects\\Shaped o Oficial\\Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\diogo\\Desktop\\Shaped\\Shaped o Oficial\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAswCoAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T13:54:31.3Z",
+              "WhenOpened": "2025-01-02T19:16:00.103Z",
               "EditorCaption": ""
             }
           ]
