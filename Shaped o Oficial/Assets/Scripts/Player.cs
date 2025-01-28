@@ -5,29 +5,83 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private float _speed;
-    //[SerializeField] private float _groundDistance;
+    //[SerializeField] private float _speed;
+    ////[SerializeField] private float _groundDistance;
 
-    //[SerializeField] private LayerMask _terrainLayer;
-    private Rigidbody _rb;
+    ////[SerializeField] private LayerMask _terrainLayer;
+    //private Rigidbody _rb;
 
-    private void Awake()
+    //private void Awake()
+    //{
+    //    _rb = GetComponent<Rigidbody>();
+    //}
+
+    //private void Update()
+    //{
+    //    Movement();
+    //}
+
+    //private void Movement()
+    //{
+    //    float x = Input.GetAxis("Horizontal");
+    //    float y = Input.GetAxis("Vertical");
+    //    Vector3 moveDir = new Vector3(x, 0, y);
+    //    _rb.velocity = moveDir * _speed;
+    //}
+
+
+    public int lives = 3;
+    public float speed = 5f;
+    public float jumpForce = 5f;
+    private Rigidbody rb;
+    private bool isGrounded = true;
+
+
+    void Start()
     {
-        _rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
     }
 
-    private void Update()
+
+    void Update()
     {
-        Movement();
+        float move = Input.GetAxis("Horizontal");
+        transform.Translate(Vector3.right * move * speed * Time.deltaTime);
+
+
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
+            isGrounded = false;
+        }
+
+        float moveX = Input.GetAxis("Horizontal");
+        float moveZ = Input.GetAxis("Vertical");
+
+
+        Vector3 movement = new Vector3(moveX, 0, moveZ) * speed * Time.deltaTime;
+        transform.Translate(movement, Space.World);
     }
 
-    private void Movement()
+    private void OnCollisionEnter(Collision collision)
     {
-        float x = Input.GetAxis("Horizontal");
-        float y = Input.GetAxis("Vertical");
-        Vector3 moveDir = new Vector3(x, 0, y);
-        _rb.velocity = moveDir * _speed;
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
+        }
     }
 
 
+    public void LoseLife()
+    {
+            lives--;
+            Debug.Log($"Player Lives: {lives}");
+
+
+            if (lives <= 0)
+            {
+                Debug.Log("Player is Dead!");
+            }
+
+    }
 }
