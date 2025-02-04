@@ -30,6 +30,7 @@ public class Player : MonoBehaviour
     //}
 
 
+
     public int lives = 3;
     public float speed = 5f;
     public float jumpForce = 5f;
@@ -44,23 +45,17 @@ public class Player : MonoBehaviour
 
 
     void Update()
-    {
-        float move = Input.GetAxis("Horizontal");
-        transform.Translate(Vector3.right * move * speed * Time.deltaTime);
-
-
+    {        
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
             isGrounded = false;
         }
 
-        float moveX = Input.GetAxis("Horizontal");
-        float moveZ = Input.GetAxis("Vertical");
-
-
-        Vector3 movement = new Vector3(moveX, 0, moveZ) * speed * Time.deltaTime;
-        transform.Translate(movement, Space.World);
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveZ = Input.GetAxisRaw("Vertical");
+        Vector3 movement = new Vector3(moveX, 0, moveZ) * speed;
+        rb.velocity = new Vector3(movement.x, rb.velocity.y, movement.z);
     }
 
     private void OnCollisionEnter(Collision collision)

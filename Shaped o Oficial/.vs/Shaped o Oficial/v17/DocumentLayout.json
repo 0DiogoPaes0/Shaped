@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{64E49D02-F23D-6D85-26AD-45C381E5DC1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64E49D02-F23D-6D85-26AD-45C381E5DC1F}|Assembly-CSharp.csproj|c:\\users\\aluno\\documents\\github\\shaped\\shaped o oficial\\assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64E49D02-F23D-6D85-26AD-45C381E5DC1F}|Assembly-CSharp.csproj|C:\\Users\\aluno\\Documents\\GitHub\\Shaped\\Shaped o Oficial\\assets\\scripts\\teacup_entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64E49D02-F23D-6D85-26AD-45C381E5DC1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\teacup_entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64E49D02-F23D-6D85-26AD-45C381E5DC1F}|Assembly-CSharp.csproj|C:\\Users\\aluno\\Documents\\GitHub\\Shaped\\Shaped o Oficial\\assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64E49D02-F23D-6D85-26AD-45C381E5DC1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64E49D02-F23D-6D85-26AD-45C381E5DC1F}|Assembly-CSharp.csproj|C:\\Users\\aluno\\Documents\\GitHub\\Shaped\\Shaped o Oficial\\assets\\scripts\\teacup_exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64E49D02-F23D-6D85-26AD-45C381E5DC1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\teacup_exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64E49D02-F23D-6D85-26AD-45C381E5DC1F}|Assembly-CSharp.csproj|C:\\Users\\aluno\\Documents\\GitHub\\Shaped\\Shaped o Oficial\\assets\\scripts\\teacup_entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64E49D02-F23D-6D85-26AD-45C381E5DC1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\teacup_entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aluno\\Documents\\GitHub\\Shaped\\Shaped o Oficial\\Assets\\Scripts\\Teacup_Exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Teacup_Exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Camera.cs",
               "DocumentMoniker": "C:\\Users\\aluno\\Documents\\GitHub\\Shaped\\Shaped o Oficial\\Assets\\Scripts\\Camera.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camera.cs",
@@ -38,12 +38,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Camera.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T15:36:54.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T15:36:54.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Teacup_Exit.cs",
               "DocumentMoniker": "C:\\Users\\aluno\\Documents\\GitHub\\Shaped\\Shaped o Oficial\\Assets\\Scripts\\Teacup_Exit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Teacup_Exit.cs",
@@ -55,13 +54,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Teacup_Entry.cs",
               "DocumentMoniker": "C:\\Users\\aluno\\Documents\\GitHub\\Shaped\\Shaped o Oficial\\Assets\\Scripts\\Teacup_Entry.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Teacup_Entry.cs",
               "ToolTip": "C:\\Users\\aluno\\Documents\\GitHub\\Shaped\\Shaped o Oficial\\Assets\\Scripts\\Teacup_Entry.cs",
               "RelativeToolTip": "Assets\\Scripts\\Teacup_Entry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T15:32:34.708Z"
             },
@@ -73,7 +72,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "C:\\Users\\aluno\\Documents\\GitHub\\Shaped\\Shaped o Oficial\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADkAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T15:30:08.514Z",
               "EditorCaption": ""
