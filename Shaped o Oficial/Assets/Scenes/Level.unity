@@ -892,6 +892,10 @@ MonoBehaviour:
   lives: 3
   speed: 5
   jumpForce: 5
+  force2123: 5
+  rayDistance: 3
+  springStrenght: 2
+  springDamper: 5
 --- !u!54 &877702013
 Rigidbody:
   m_ObjectHideFlags: 0

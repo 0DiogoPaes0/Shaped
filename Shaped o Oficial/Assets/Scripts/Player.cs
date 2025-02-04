@@ -56,6 +56,8 @@ public class Player : MonoBehaviour
         float moveZ = Input.GetAxisRaw("Vertical");
         Vector3 movement = new Vector3(moveX, 0, moveZ) * speed;
         rb.velocity = new Vector3(movement.x, rb.velocity.y, movement.z);
+
+        Test();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -78,5 +80,43 @@ public class Player : MonoBehaviour
                 Debug.Log("Player is Dead!");
             }
 
+    }
+
+
+    public float force2123;
+    public float rayDistance;
+    public float springStrenght;
+    public float springDamper;
+    private void Test()
+    {
+        if (Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, rayDistance))
+        {
+            float rideHeight = rayDistance / 3;
+
+            float rayDirVel = Vector3.Dot(Vector3.down, rb.velocity);
+            float otherDirVel = Vector3.Dot(Vector3.down, Vector3.zero);
+
+            float relVel = rayDirVel - otherDirVel;
+
+            float x = hit.distance - rideHeight;
+            float springForce = (x * springStrenght) - (relVel * springDamper);
+
+            rb.AddForce(Vector3.down * springForce);
+
+            //if (hit.distance < 1)
+            //{
+            //    rb.AddForce(Vector3.up * force2123, ForceMode.Force);
+            //}
+            //else if (hit.distance > 1)
+            //{
+            //    rb.AddForce(Vector3.down * force2123, ForceMode.Force);
+            //}
+        }
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawRay(transform.position, Vector3.down * rayDistance);
     }
 }
