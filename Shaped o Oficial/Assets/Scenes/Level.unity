@@ -183,7 +183,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cddeee71ac9e74847bd249d0709fbb8c, type: 2}
+  - {fileID: 2100000, guid: d41e1d59e4cf59349bbeda9e815d32b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -288,7 +288,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cddeee71ac9e74847bd249d0709fbb8c, type: 2}
+  - {fileID: 2100000, guid: d41e1d59e4cf59349bbeda9e815d32b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -393,7 +393,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cddeee71ac9e74847bd249d0709fbb8c, type: 2}
+  - {fileID: 2100000, guid: d41e1d59e4cf59349bbeda9e815d32b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -498,7 +498,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cddeee71ac9e74847bd249d0709fbb8c, type: 2}
+  - {fileID: 2100000, guid: d41e1d59e4cf59349bbeda9e815d32b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -846,7 +846,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cddeee71ac9e74847bd249d0709fbb8c, type: 2}
+  - {fileID: 2100000, guid: d41e1d59e4cf59349bbeda9e815d32b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -951,7 +951,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 59.76251
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -978,7 +978,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 29.25, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -997,7 +997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 877702010}
-  offset: {x: 0, y: 5, z: -10}
+  offset: {x: 0, y: 2, z: -10}
   smoothSpeed: 0.125
 --- !u!1 &1134010557
 GameObject:
@@ -1228,7 +1228,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cddeee71ac9e74847bd249d0709fbb8c, type: 2}
+  - {fileID: 2100000, guid: a8017c2a9252a6046b1c6c63ce8d4130, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
